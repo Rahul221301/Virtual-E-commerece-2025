@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: ["https://virtual-frontend-rmqz.onrender.com", "http://localhost:5174"],
+    origin: ["https://virtual-frontend-rmqz.onrender.com", "https://virtual-admin.onrender.com"],
     credentials: true
 }))
 
